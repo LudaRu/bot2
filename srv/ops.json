@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "578785d4-b41b-3ed4-bff7-ff3cb26825ed",
+    "name": "MrStalin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8bbe7f79-b6f4-3031-9f2c-80e8e562e3bb",
+    "name": "LeatherMan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "15468a55-d663-3077-a691-aed0be0ffacf",
+    "name": "1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

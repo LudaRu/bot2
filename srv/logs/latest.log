@@ -1,0 +1,458 @@
+[11:14:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[11:14:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[11:14:18] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2815 for Minecraft 1.12.2 loading
+[11:14:18] [main/INFO] [FML]: Java is Java HotSpot(TM) Client VM, version 1.8.0_201, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jre1.8.0_201
+[11:14:18] [main/INFO] [FML]: Searching C:\Users\1\Desktop\srv\.\mods for mods
+[11:14:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:14:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:14:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:14:20] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[11:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:14:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:14:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[11:14:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[11:14:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[11:14:27] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2815 Initialized
+[11:14:27] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
+java.io.IOException: Неверный дескриптор
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_201]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_201]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_201]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [nz$2.class:?]
+[11:14:27] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:14:27] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[11:14:28] [Server thread/INFO] [FML]: Searching C:\Users\1\Desktop\srv\.\mods for mods
+[11:14:28] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[11:14:28] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[11:14:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[11:14:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[11:14:29] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:14:29] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[11:14:29] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:14:29] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:14:30] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:14:30] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:14:30] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:30] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:30] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:30] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:30] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:30] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:30] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:30] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:30] [Server thread/INFO] [FML]: Injecting itemstacks
+[11:14:30] [Server thread/INFO] [FML]: Itemstack injection complete
+[11:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[11:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[11:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[11:14:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[11:14:31] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[11:14:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[11:14:32] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:14:32] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[11:14:32] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:14:32] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:14:32] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:32] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:32] [Server thread/INFO] [FML]: Injecting itemstacks
+[11:14:32] [Server thread/INFO] [FML]: Itemstack injection complete
+[11:14:32] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[11:14:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[11:14:33] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[11:14:33] [Server thread/INFO] [FML]: Applying holder lookups
+[11:14:33] [Server thread/INFO] [FML]: Holder lookups applied
+[11:14:33] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@e2fa7d)
+[11:14:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[11:14:34] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@e2fa7d)
+[11:14:34] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@e2fa7d)
+[11:14:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[11:14:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[11:14:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[11:14:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
+[11:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 71%
+[11:14:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (6,727s)! For help, type "help" or "?"
+[11:14:39] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:14:39] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:16:49] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[11:16:49] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2811,mcp@9.42
+[11:16:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:16:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 1[/127.0.0.1:1339] logged in with entity id 263 at (94.5, 64.0, 254.5)
+[11:16:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 joined the game
+[11:17:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped 1
+[11:17:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1: Set own game mode to Creative Mode]
+[11:18:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 has made the advancement [Monster Hunter]
+[11:20:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1: Set the time to 0]
+[11:21:19] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[11:21:19] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2815,mcp@9.42
+[11:21:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:21:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:1599] logged in with entity id 4854 at (97.5, 64.001, 253.5)
+[11:21:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[11:21:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot was slain by 1
+[11:22:43] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: You logged in from another location
+[11:22:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[11:22:43] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[11:22:43] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[11:22:43] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[11:22:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:1676] logged in with entity id 6868 at (92.5, 64.001, 260.5)
+[11:22:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[11:23:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Timed out
+[11:23:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:05:09] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:05:09] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:05:09] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:05:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3464] logged in with entity id 37193 at (92.5, 64.001, 260.5)
+[12:05:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:05:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:05:52] [Netty Server IO #6/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:05:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:05:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:05:55] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:05:55] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:05:55] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:05:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3468] logged in with entity id 37874 at (92.5, 64.001, 260.5)
+[12:05:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:06:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Timed out
+[12:06:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:32:58] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:32:58] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:32:58] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:32:58] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3888] logged in with entity id 63538 at (92.5, 64.001, 260.5)
+[12:32:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:33:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1: Set the time to 0]
+[12:33:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:33:14] [Netty Server IO #10/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:33:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:33:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:33:22] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:33:22] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:33:22] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:33:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3892] logged in with entity id 64024 at (92.5, 64.001, 260.5)
+[12:33:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:33:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:34:03] [Netty Server IO #12/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:34:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:34:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:34:08] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:34:08] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:34:08] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:34:08] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3897] logged in with entity id 65156 at (92.5, 64.001, 260.5)
+[12:34:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:34:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:34:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Timed out
+[12:34:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:35:22] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:35:22] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:35:22] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:35:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3902] logged in with entity id 65941 at (92.5, 64.001, 260.5)
+[12:35:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:35:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:35:34] [Netty Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:35:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:35:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:35:47] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:35:47] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:35:47] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:35:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3906] logged in with entity id 66544 at (92.5, 64.001, 260.5)
+[12:35:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:35:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:36:23] [Netty Server IO #2/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:36:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:36:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:36:30] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:36:30] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:36:30] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:36:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3914] logged in with entity id 67480 at (92.5, 64.001, 260.5)
+[12:36:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:36:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:36:42] [Netty Server IO #4/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:36:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:36:49] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:36:49] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:36:49] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:36:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3918] logged in with entity id 67693 at (92.5, 64.001, 260.5)
+[12:36:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:36:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:36:55] [Netty Server IO #6/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:36:55] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:36:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:37:05] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:37:05] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:37:05] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:37:05] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3922] logged in with entity id 67859 at (92.5, 64.001, 260.5)
+[12:37:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:37:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:37:11] [Netty Server IO #8/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:37:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:37:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:37:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:37:31] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:37:31] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:37:31] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:37:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3926] logged in with entity id 68170 at (92.5, 64.001, 260.5)
+[12:37:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:37:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:37:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:38:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Timed out
+[12:38:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:38:24] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:38:24] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:38:24] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:38:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3930] logged in with entity id 69078 at (92.5, 64.001, 260.5)
+[12:38:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:38:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:38:50] [Netty Server IO #12/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:38:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:38:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:39:43] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:39:43] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:39:43] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:39:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3935] logged in with entity id 70215 at (92.5, 64.001, 260.5)
+[12:39:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:39:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:39:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 65, 261)
+[12:39:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 65, 261)
+[12:40:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (91, 65, 259)
+[12:40:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (93, 63, 261)
+[12:40:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:40:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (93, 62, 261)
+[12:41:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:41:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (93, 62, 261)
+[12:41:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:41:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:41:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:41:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (93, 62, 261)
+[12:48:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:49:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:49:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:49:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (93, 62, 261)
+[12:50:11] [Netty Server IO #14/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[12:50:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[12:50:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[12:50:15] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[12:50:15] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[12:50:15] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[12:50:15] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ImNoBot[/127.0.0.1:3954] logged in with entity id 77922 at (92.5, 64.001, 260.5)
+[12:50:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot joined the game
+[12:51:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> Не вижу дерева
+[12:51:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> Не вижу дерева
+[12:51:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> Не вижу дерева
+[12:51:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 64, 261)
+[12:51:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 64, 259)
+[12:51:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 65, 259)
+[12:51:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> Не вижу дерева
+[12:51:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> (92, 62, 259)
+[12:51:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1> 1
+[12:51:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ImNoBot> Не вижу дерева
+[13:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot was slain by Zombie
+[13:07:12] [Netty Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[13:07:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:07:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:07:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ImNoBot lost connection: Internal Exception: java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+[13:07:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ImNoBot left the game
+[13:07:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1 lost connection: Server closed
+[13:07:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1 left the game
+[13:07:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:07:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld

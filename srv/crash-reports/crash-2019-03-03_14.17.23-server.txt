@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  xPatcher (xModPatcher_universal-1.0.jar)
+  ClientFixer (ClientFixer-1.12.2-1.9.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.2-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+Contact their authors BEFORE contacting forge
+
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 03.03.19 14:17
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from xChat (ostiumcore)
+Caused by: java.lang.NoSuchMethodError: ru.ostiumcore.client.fonts.Fonts.registerFonts()V
+	at ru.ostiumcore.client.fonts.Fonts.onConstruction(Fonts.java:57)
+	at ru.ostiumcore.XMain.onConstruction(XMain.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:624)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 783498336 bytes (747 MB) / 945815552 bytes (902 MB) up to 3329753088 bytes (3175 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2815 34 mods loaded, 34 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version           | Source                                        | Signature                                |
+	|:----- |:--------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LC    | minecraft             | 1.12.2            | minecraft.jar                                 | None                                     |
+	| LC    | mcp                   | 9.42              | minecraft.jar                                 | None                                     |
+	| LC    | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2815-universal.jar       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | forge                 | 14.23.5.2815      | forge-1.12.2-14.23.5.2815-universal.jar       | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | ClientFixer           | 1.12.2-1.9        | minecraft.jar                                 | None                                     |
+	| LC    | foamfixcore           | 7.7.4             | minecraft.jar                                 | None                                     |
+	| LC    | xPatcher              | 1.1               | minecraft.jar                                 | None                                     |
+	| LC    | ic2                   | 2.8.101-ex112     | industrialcraft-2-2.8.101-ex112.jar           | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LC    | advanced_solar_panels | 4.2.0             | Advanced+Solar+Panels-4.2.0.jar               | None                                     |
+	| LC    | appliedenergistics2   | rv6-alpha-3       | appliedenergistics2-rv6-alpha-3.jar           | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LC    | bdlib                 | 1.14.3.12         | bdlib-1.14.3.12-mc1.12.2.jar                  | None                                     |
+	| LC    | chisel                | MC1.12.2-0.2.1.35 | Chisel-MC1.12.2-0.2.1.35.jar                  | None                                     |
+	| LC    | codechickenlib        | 3.2.2.353         | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | redstoneflux          | 2.1.0             | RedstoneFlux-1.12-2.1.0.6-universal.jar       | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | cofhcore              | 4.6.1             | CoFHCore-1.12.2-4.6.1.22-universal.jar        | None                                     |
+	| LC    | cofhworld             | 1.3.0             | CoFHWorld-1.12.2-1.3.0.6-universal.jar        | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | crafttweaker          | 4.0.7             | CraftTweaker2-1.12-4.0.7.jar                  | None                                     |
+	| LC    | jei                   | 4.13.1.220        | jei_1.12.2-4.13.1.220.jar                     | None                                     |
+	| LC    | crafttweakerjei       | 2.0.0             | CraftTweaker2-1.12-4.0.7.jar                  | None                                     |
+	| LC    | foamfix               | 0.10.2-1.12.2     | foamfix-0.10.2-1.12.2.jar                     | None                                     |
+	| LC    | forestry              | 5.8.2.374         | forestry_1.12.2-5.8.2.374.jar                 | None                                     |
+	| LC    | gravisuite            | 3.0.1             | GraviSuite-1.12.2-3.0.1.jar                   | None                                     |
+	| LC    | waila                 | 1.8.26            | Hwyla_1.8.26_B41_1.12.2.jar                   | None                                     |
+	| LC    | ironchest             | 1.12.2-7.0.52.837 | ironchest-1.12.2-7.0.52.837.jar               | None                                     |
+	| LC    | jeibees               | 0.9.0.5           | JeiAddons.jar                                 | None                                     |
+	| LC    | justenoughbuttons     | 1.12-1.2          | JeiAddons.jar                                 | None                                     |
+	| LC    | gendustryjei          | 1.0.2             | JeiAddons.jar                                 | None                                     |
+	| LC    | nutrition             | 4.0.0             | Nutrition-1.12.2-4.0.0.jar                    | None                                     |
+	| LC    | thermalfoundation     | 2.6.1             | ThermalFoundation-1.12.2-2.6.1.22.jar         | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | thermalexpansion      | 5.5.2             | ThermalExpansion-1.12.2-5.5.2.39.jar          | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | thermaldynamics       | 2.5.3             | ThermalDynamics-1.12.2-2.5.3.16_client.jar    | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| LC    | trade                 | 1.0.4             | trade-1.0.4_client.jar                        | None                                     |
+	| LC    | wawla                 | 2.5.260           | Wawla_1.12.2_2.5.260.jar                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LE    | ostiumcore            | 3.0               | xChat_client-1.1-universal.jar                | None                                     |
+
+	Loaded coremods (and transformers): 
+xPatcher (xModPatcher_universal-1.0.jar)
+  ru.stepan1404.xpatcher.asm.ASMTransformer
+ClientFixer (ClientFixer-1.12.2-1.9.jar)
+  com.gamerforea.clientfixer.asm.ASMTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.2-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	AE2 Version: alpha rv6-alpha-3 for Forge 14.23.3.2655
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

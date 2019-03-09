@@ -19,6 +19,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "a-star": "^0.2.0",
+    "dutie": "^1.2.6",
+    "duty": "^2.5.1",
+    "executive": "^1.6.3",
     "minecraft-data": "^2.31.0",
     "minecraft-protocol": "^1.8.1",
     "mojangson": "^0.2.1",
